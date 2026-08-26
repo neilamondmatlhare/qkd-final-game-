@@ -1,0 +1,100 @@
+PHANTOM Q BUILD 02 — PRODUCTION PASS V WHOLE-HQ VISUAL COMPILE
+Static validation date: 2026-08-25
+Target Unity: 6000.5.9f1
+
+PHANTOM Q SPEC VALIDATION: PASS
+Rooms: 11 | Transitions: 14 | Physical edges: 26
+All rooms reachable from Reception: PASS
+A1-A10 canonical invariants checked.
+
+PHANTOM Q BUILD 02 PRODUCTION STATIC VALIDATION
+====================================================
+OK exists: ProjectSettings/ProjectVersion.txt
+OK ProjectVersion 6000.5.9f1
+OK ProjectVersion b57deb96f08d
+OK exists: Packages/manifest.json
+OK package com.unity.ai.navigation=2.0.14
+OK package com.unity.cinemachine=3.1.7
+OK package com.unity.inputsystem=1.20.0
+OK package com.unity.probuilder=6.1.2
+OK package com.unity.render-pipelines.universal=17.5.0
+OK exists: Packages/packages-lock.json
+OK exists: README_FIRST.md
+OK exists: Docs/BUILD02_LOCKS_AND_LOOP.md
+OK exists: Docs/BUILD02_PRODUCTION_PASS_2026-08-24.md
+OK exists: Docs/THIRD_PARTY_ASSET_INTAKE.md
+OK exists: Docs/RESOURCE_REGISTRY_2026-08-24.md
+OK exists: Docs/RESOURCE_REGISTRY_2026-08-24.json
+OK exists: Docs/BUILD02_ACCEPTANCE.md
+OK exists: Docs/PHANTOM_Q_PROJECT_VISION.md
+OK exists: Tools/Unity.ps1
+OK exists: Tools/Fetch-CC0Assets.ps1
+OK exists: HANDOFF_BUILD02_PRODUCTION_PASS_V.md
+OK exists: Docs/BUILD02_PRODUCTION_PASS_V_WHOLE_HQ_VISUAL_COMPILE_2026-08-25.md
+OK exists: Docs/CODEX_PRODUCTION_V_RUNBOOK.md
+OK exists: Docs/ROOM_PRODUCTION_RECIPES_V5_2026-08-25.json
+OK exists: Docs/PRODUCTION_V_PREFAB_LIBRARY_2026-08-25.json
+OK exists: Docs/INVESTOR_PROOF_MANIFEST_V5_2026-08-25.json
+OK exists: Docs/ReferenceImages/ProductionV_Target_2026-08-25/00_MASTER_HQ_INVESTOR_TARGET.png
+OK exists: Assets/PhantomQ/Art/Brand/PhantomQ_Q_Emblem.png
+OK exists: Assets/PhantomQ/Art/Brand/PhantomQ_Q_Emblem.png.meta
+OK exists: Docs/ReferenceImages/BB84_SPATIAL_LAB_REFERENCE.png
+OK exists: Assets/PhantomQ/Dev/Editor/PQHQMasterGreyboxBuilder.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQHQProductionFoundationBuilder.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQRenderPipelineBootstrap.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQBuild02ProductionPass.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQAssetSlotProductionResolver.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQBuild02Validation.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQFirstImportBootstrap.cs
+OK exists: Assets/PhantomQ/Input/PQInputRouter.cs
+OK exists: Assets/PhantomQ/UI/PQMinimalHUD.cs
+OK exists: Assets/PhantomQ/Presentation/Cutaway/PQCutawaySurface.cs
+OK exists: Assets/PhantomQ/Presentation/Cutaway/PQCutawayController.cs
+OK exists: Assets/PhantomQ/Interaction/PQInteractionContext.cs
+OK exists: Assets/PhantomQ/Interaction/PQInteractionDetector.cs
+OK exists: Assets/PhantomQ/World/Environment/PQAssetSlot.cs
+OK exists: Assets/PhantomQ/World/Environment/PQAccessReaderVisual.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQProductionPrefabCompilerV.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQHQProductionLayerV.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQLightingProductionV.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQNavigationProductionV.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQInvestorEvidenceCaptureV.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQBuild02ProductionVValidation.cs
+OK exists: Assets/PhantomQ/Dev/Editor/PQBuild02ProductionPassV.cs
+OK canonical + production builder tokens
+OK URP activation bootstrap source inspected
+OK Production V whole-HQ authored source inspected
+OK exists: ProjectSettings/EditorBuildSettings.asset
+OK Build02 scene enabled in Build Settings
+OK .meta coverage for Assets
+
+PASS — source/package production checks complete. Unity 6000.5.9f1 compile/render/Play Mode/profiler gates remain required.
+
+PHANTOM Q BUILD 02 PRODUCTION V STATIC VALIDATION
+==========================================================
+OK Assets/PhantomQ/Dev/Editor/PQProductionPrefabCompilerV.cs
+OK Assets/PhantomQ/Dev/Editor/PQHQProductionLayerV.cs
+OK Assets/PhantomQ/Dev/Editor/PQLightingProductionV.cs
+OK Assets/PhantomQ/Dev/Editor/PQNavigationProductionV.cs
+OK Assets/PhantomQ/Dev/Editor/PQEnvironmentOptimizationV.cs
+OK Assets/PhantomQ/Dev/Editor/PQInvestorEvidenceCaptureV.cs
+OK Assets/PhantomQ/Dev/Editor/PQBuild02ProductionVValidation.cs
+OK Assets/PhantomQ/Dev/Editor/PQBuild02ProductionPassV.cs
+OK Docs/ROOM_PRODUCTION_RECIPES_V5_2026-08-25.json
+OK Docs/PRODUCTION_V_PREFAB_LIBRARY_2026-08-25.json
+OK Docs/INVESTOR_PROOF_MANIFEST_V5_2026-08-25.json
+OK Docs/BUILD02_PRODUCTION_PASS_V_WHOLE_HQ_VISUAL_COMPILE_2026-08-25.md
+OK Docs/CODEX_PRODUCTION_V_RUNBOOK.md
+OK HANDOFF_BUILD02_PRODUCTION_PASS_V.md
+OK Production V design references=6
+OK exact bundled FBX references=52
+OK arrival + 11 rooms + service spine in Production V layer
+OK room production recipes cover all 11 canonical rooms
+OK Tools/Unity.ps1
+OK Assets/PhantomQ/Dev/Editor/PQFirstImportBootstrap.cs
+OK first-import marker targets Production V
+
+PASS — large whole-HQ source/package compile is internally consistent. Unity compile/render/Play Mode remains the target-machine gate.
+
+C# delimiter sanity is rerun during archive verification.
+Unity compile/render/Play Mode/profiler remain target-machine/Codex gates.

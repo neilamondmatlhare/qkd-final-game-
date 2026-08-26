@@ -1,0 +1,116 @@
+{
+  "build": "Build 02 Production Pass V — Whole HQ Visual Compile",
+  "source_of_truth": "HQ_CANONICAL_SPEC.json remains geometry authority; the reference images under Docs/ReferenceImages/ProductionV_Target_2026-08-25 guide composition and density.",
+  "rooms": [
+    {
+      "id": "RECEPTION",
+      "purpose": "identify / register / authenticate / enter",
+      "visual_target": "modern secure corporate reception, visible identity workflow, controlled T0 threshold",
+      "hero": "Identity desk + credential kiosks + Phantom Q arrival identity",
+      "commodity": ["reception desks","monitors/keyboards","waiting lounge","coffee table","plants","bookcase/storage","ceiling fixtures"],
+      "vertical": ["low lounge and queue zone","human-height credential systems","identity display wall","ceiling grid"],
+      "keep_clear": ["south entrance","central path to T0"],
+      "investor_proof": "arrival and reception should communicate a real organisation before any tutorial text"
+    },
+    {
+      "id": "CENTRAL_OPS",
+      "purpose": "operate / coordinate / authorise / communicate / restore",
+      "visual_target": "mission-control floor with clear centre circulation and strong operations wall",
+      "hero": "WS04 + main situation wall + HQ command/authorisation island",
+      "commodity": ["mission-control workstations","operator chairs","server/storage","displays","plants","ceiling fixtures"],
+      "vertical": ["workstations","wall displays","WS04 frame","overhead services"],
+      "keep_clear": ["Reception/T0 route","routes to Foundations/Comms/SOC","WS04 player marker"],
+      "investor_proof": "must read as the organisational heart rather than a large office"
+    },
+    {
+      "id": "FOUNDATIONS",
+      "purpose": "reason / classify / reconstruct / verify",
+      "visual_target": "evidence-based training laboratory, not a classroom of rows",
+      "hero": "evidence/timeline wall + Fact/Assumption/Unknown stations",
+      "commodity": ["collaboration tables","paired chairs","monitors","storage","plant","ceiling fixtures"],
+      "vertical": ["working islands","analysis stations","large evidence wall"],
+      "keep_clear": ["Ops transition","Engineering transition"],
+      "investor_proof": "learner activity should be visible through physical evidence systems"
+    },
+    {
+      "id": "CRYPTO",
+      "purpose": "protect / transform / sign / verify",
+      "visual_target": "specialist cryptography operations lab with two concept islands and a trust/signing centre",
+      "hero": "symmetric zone + asymmetric/trust zone + signing station",
+      "commodity": ["technical workstations","chairs","secure racks","trust display","ceiling services"],
+      "vertical": ["benches","secure storage","trust wall","overhead services"],
+      "keep_clear": ["communications controlled opening"],
+      "investor_proof": "different security concepts should occupy different spatial apparatus"
+    },
+    {
+      "id": "COMMUNICATIONS",
+      "purpose": "send / receive / observe route / inspect metadata",
+      "visual_target": "secure channel and routing centre with infrastructure visible around a central channel lane",
+      "hero": "network route wall + Alice source endpoint + Bob remote endpoint",
+      "commodity": ["rack banks","analyst workstations","computers","storage","cable/service trays"],
+      "vertical": ["rack infrastructure","route display","overhead channel/services"],
+      "keep_clear": ["Crypto link","Ops link","SOC link"],
+      "investor_proof": "network path should be physically understandable without exposing secret role data"
+    },
+    {
+      "id": "SOC",
+      "purpose": "investigate / correlate / trace / preserve / contain",
+      "visual_target": "dense security operations centre driven by evidence work, not a decorative monitor wall",
+      "hero": "central trace/correlation table + incident evidence wall",
+      "commodity": ["analyst stations","operator chairs","rack infrastructure","evidence storage","wall displays","ceiling services"],
+      "vertical": ["analyst row","trace table","incident wall","rack wall","overhead service"],
+      "keep_clear": ["T1 entries","T2 route to Red Team"],
+      "investor_proof": "must visibly support filtering, correlation, tracing and preservation"
+    },
+    {
+      "id": "RED_TEAM",
+      "purpose": "validate / request authority / scope / operate / preserve",
+      "visual_target": "controlled offensive-security operations room with explicit authority separation",
+      "hero": "authorisation console + target/scope table + deeper operations positions",
+      "commodity": ["operations workstations","chairs","secure storage","displays","service trays"],
+      "vertical": ["authority zone","target table","operations wall","secure storage"],
+      "keep_clear": ["T2 entry","target/auth separation"],
+      "investor_proof": "room access must never visually imply unrestricted authority"
+    },
+    {
+      "id": "ENGINEERING",
+      "purpose": "build / connect / measure / test / repair",
+      "visual_target": "dense electronics and industrial workshop with real machines and service infrastructure",
+      "hero": "central assembly/repair island + electronics benches",
+      "commodity": ["desks/benches","screens","robot arm","scanner","machines","parts boxes","storage","service pipe/cable trays"],
+      "vertical": ["parts floor zone","bench zone","machine zone","tool/status wall","overhead services"],
+      "keep_clear": ["Foundation route","Quantum/advanced equipment route","service spine"],
+      "investor_proof": "must look like hardware can genuinely be built and tested here"
+    },
+    {
+      "id": "QUANTUM",
+      "purpose": "configure / align / transmit / intercept / detect / analyse",
+      "visual_target": "serious optical/QKD laboratory with continuous Alice → Eve → Bob apparatus relationship",
+      "hero": "optical table/rail + source/intercept/detector apparatus + three control positions",
+      "commodity": ["control workstations","instrumentation screens","racks","service pipe/cable trays","optical mount supports"],
+      "vertical": ["floor role zones","optical bench","instruments","QKD wall","overhead services"],
+      "keep_clear": ["Engineering transition","equipment circulation","hardware linkage route"],
+      "investor_proof": "must immediately read as the physical point where quantum/security becomes engineering"
+    },
+    {
+      "id": "ADV_COMPUTE",
+      "purpose": "simulate / model / process",
+      "visual_target": "high-density compute room with rack banks and a central processing/simulation island",
+      "hero": "simulation island + compute infrastructure aisle",
+      "commodity": ["rack banks","wide computers","operator chair","wall display","service pipes"],
+      "vertical": ["rack rows","simulation console","compute wall","cooling/services"],
+      "keep_clear": ["Engineering and Secure Core routes"],
+      "investor_proof": "must be distinct from Communications: computation capacity rather than channel routing"
+    },
+    {
+      "id": "SECURE_CORE",
+      "purpose": "protect highest-value systems",
+      "visual_target": "sparse high-trust chamber with one protected core and strong security hierarchy",
+      "hero": "protected fortified core inside a security ring",
+      "commodity": ["secure storage","control console","structural shield pillars","status display"],
+      "vertical": ["protected centre","shield pillars","status wall"],
+      "keep_clear": ["T5 threshold","emergency egress"],
+      "investor_proof": "restraint should communicate trust depth; do not invent fake gameplay clutter"
+    }
+  ]
+}

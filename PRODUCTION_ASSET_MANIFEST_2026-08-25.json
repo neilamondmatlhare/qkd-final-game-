@@ -1,0 +1,31 @@
+{
+  "version": "2026-08-25",
+  "policy": "Exact curated mappings supersede keyword matching. Commodity assets may be reused; hero/security/QKD assets remain Phantom Q-specific unless explicitly approved.",
+  "entries": [
+    {"slot":"Reception.Seating","strategy":"reuse","preferred_sources":["Kenney Furniture Kit"],"status":"CURATE"},
+    {"slot":"Reception.IdentityDesk","strategy":"reuse_then_customise","preferred_sources":["Kenney Furniture Kit"],"status":"CURATE"},
+    {"slot":"CentralOps.StandardDesk","strategy":"reuse_then_customise","preferred_sources":["Kenney Furniture Kit"],"status":"CURATE"},
+    {"slot":"CentralOps.WS04","strategy":"custom","preferred_sources":["Phantom Q internal"],"status":"HERO_LOCK"},
+    {"slot":"Foundations.EvidenceBoard","strategy":"custom","preferred_sources":["Phantom Q internal"],"status":"HERO_LOCK"},
+    {"slot":"Crypto.SymmetricBench","strategy":"custom","preferred_sources":["Phantom Q internal"],"status":"HERO_LOCK"},
+    {"slot":"Crypto.AsymmetricBench","strategy":"custom","preferred_sources":["Phantom Q internal"],"status":"HERO_LOCK"},
+    {"slot":"Communications.NetworkDisplay","strategy":"custom","preferred_sources":["Phantom Q internal"],"status":"HERO_LOCK"},
+    {"slot":"SOC.AnalystDesk","strategy":"reuse_then_customise","preferred_sources":["Kenney Furniture Kit","Quaternius Modular Sci-Fi MegaKit"],"status":"CURATE"},
+    {"slot":"SOC.TraceTable","strategy":"custom","preferred_sources":["Phantom Q internal"],"status":"HERO_LOCK"},
+    {"slot":"RedTeam.TargetTable","strategy":"custom","preferred_sources":["Phantom Q internal"],"status":"HERO_LOCK"},
+    {"slot":"RedTeam.AuthorisationStation","strategy":"custom","preferred_sources":["Phantom Q internal"],"status":"HERO_LOCK"},
+    {"slot":"Engineering.Storage","strategy":"reuse","preferred_sources":["Kenney Factory Kit","Quaternius Modular Sci-Fi MegaKit"],"status":"CURATE"},
+    {"slot":"Engineering.InstrumentGeneric","strategy":"reuse_then_customise","preferred_sources":["Kenney Factory Kit","Quaternius Sci-Fi Essentials Kit"],"status":"CURATE"},
+    {"slot":"Quantum.OpticalTable","strategy":"custom","preferred_sources":["Phantom Q internal / Blender"],"status":"HERO_LOCK"},
+    {"slot":"Quantum.AliceSource","strategy":"custom","preferred_sources":["Phantom Q physical-QKD design"],"status":"HERO_LOCK"},
+    {"slot":"Quantum.EveIntercept","strategy":"custom","preferred_sources":["Phantom Q physical-QKD design"],"status":"HERO_LOCK"},
+    {"slot":"Quantum.BobReceiver","strategy":"custom","preferred_sources":["Phantom Q physical-QKD design"],"status":"HERO_LOCK"},
+    {"slot":"Architecture.WallsDoorsColumns","strategy":"reuse_then_reauthor","preferred_sources":["Quaternius Modular Sci-Fi MegaKit","Kenney Building Kit"],"status":"EVALUATE_IN_SANDBOX"},
+    {"slot":"Materials.PBR","strategy":"reuse_then_unify","preferred_sources":["Poly Haven","ambientCG"],"status":"CURATE"},
+    {"slot":"AmbientStaff.BaseCharacter","strategy":"reuse_prototype","preferred_sources":["Quaternius Universal Base Characters"],"status":"EVALUATE"},
+    {"slot":"AmbientStaff.Animation","strategy":"reuse_retarget","preferred_sources":["Quaternius Universal Animation Library","Quaternius Universal Animation Library 2"],"status":"EVALUATE"},
+    {"slot":"Alice.Character","strategy":"custom","preferred_sources":["Phantom Q hero character pipeline"],"status":"HERO_LOCK"},
+    {"slot":"Bob.Character","strategy":"custom","preferred_sources":["Phantom Q hero character pipeline"],"status":"HERO_LOCK"},
+    {"slot":"Eve.Character","strategy":"custom","preferred_sources":["Phantom Q hero character pipeline"],"status":"HERO_LOCK"}
+  ]
+}

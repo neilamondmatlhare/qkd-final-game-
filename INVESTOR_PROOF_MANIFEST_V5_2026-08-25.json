@@ -1,0 +1,26 @@
+{
+  "capture_command": ".\\Tools\\Unity.ps1 CaptureEvidenceV",
+  "resolution": "1920x1080",
+  "output": "Docs/VisualEvidence/Build02_ProductionV/",
+  "views": [
+    "00_HQ_OVERVIEW",
+    "01_EXTERIOR_ARRIVAL",
+    "02_RECEPTION_IDENTITY",
+    "03_CENTRAL_OPS",
+    "04_WS04_HERO",
+    "05_FOUNDATIONS",
+    "06_CRYPTOGRAPHY",
+    "07_COMMUNICATIONS",
+    "08_SOC",
+    "09_RED_TEAM",
+    "10_ENGINEERING",
+    "11_ENGINEERING_WORKBENCH",
+    "12_QUANTUM_WING",
+    "13_QKD_OPTICAL_TABLE",
+    "14_ADVANCED_COMPUTE",
+    "15_SECURE_CORE",
+    "16_SERVICE_SPINE",
+    "17_SECURITY_WING"
+  ],
+  "proof_rule": "Pair concept/reference targets with actual Unity captures. Concept art proves design direction; Unity capture proves implemented work. Do not substitute one for the other."
+}

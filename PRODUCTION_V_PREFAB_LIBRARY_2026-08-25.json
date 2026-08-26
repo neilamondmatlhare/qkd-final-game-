@@ -1,0 +1,65 @@
+{
+  "build": "Build 02 Production Pass V",
+  "policy": "Curated reusable prefabs first; custom work only for Phantom Q identity, gameplay and hero systems.",
+  "architecture": [
+    {"key":"ARCH/WallDetailed","source":"Kenney Building Kit wall.fbx","use":"interior production cladding / shell depth"},
+    {"key":"ARCH/WallWindowWide","source":"Kenney Building Kit wall-window-wide-square-detailed.fbx","use":"façade and glazed technical walls"},
+    {"key":"ARCH/ColumnWide","source":"Kenney Building Kit column-wide.fbx","use":"structural rhythm"},
+    {"key":"ARCH/DoorDouble","source":"Kenney Space Station Kit door-double.fbx","use":"visual doorway skin only; PQ access logic remains authoritative"},
+    {"key":"ARCH/FloorPanel","source":"Kenney Space Station Kit floor-panel.fbx","use":"floor detail islands"},
+    {"key":"ARCH/WallDetail","source":"Kenney Space Station Kit wall-detail.fbx","use":"operational wall composition"},
+    {"key":"ARCH/Rail","source":"Kenney Space Station Kit rail.fbx","use":"lab/security/service detail"},
+    {"key":"ARCH/ServicePipe","source":"Kenney Factory Kit pipe-large-long.fbx","use":"technical services"},
+    {"key":"ARCH/CableTray","source":"Kenney Factory Kit catwalk-straight.fbx","use":"overhead service/cable language"}
+  ],
+  "office": [
+    {"key":"OFFICE/Desk","source":"Kenney Furniture Kit desk.fbx"},
+    {"key":"OFFICE/DeskCorner","source":"Kenney Furniture Kit deskCorner.fbx"},
+    {"key":"OFFICE/ChairDesk","source":"Kenney Furniture Kit chairDesk.fbx"},
+    {"key":"OFFICE/ChairModern","source":"Kenney Furniture Kit chairModernFrameCushion.fbx"},
+    {"key":"OFFICE/Lounge","source":"Kenney Furniture Kit loungeDesignChair.fbx"},
+    {"key":"OFFICE/Sofa","source":"Kenney Furniture Kit loungeDesignSofa.fbx"},
+    {"key":"OFFICE/CoffeeTable","source":"Kenney Furniture Kit tableCoffeeGlassSquare.fbx"},
+    {"key":"OFFICE/Plant","source":"Kenney Furniture Kit pottedPlant.fbx"},
+    {"key":"OFFICE/Bookcase","source":"Kenney Furniture Kit bookcaseClosedWide.fbx"},
+    {"key":"OFFICE/Monitor","source":"Kenney Furniture Kit computerScreen.fbx"},
+    {"key":"OFFICE/Keyboard","source":"Kenney Furniture Kit computerKeyboard.fbx"},
+    {"key":"OFFICE/CeilingLamp","source":"Kenney Furniture Kit lampSquareCeiling.fbx"}
+  ],
+  "operations": [
+    {"key":"OPS/WorkstationSmall","source":"Kenney Space Station Kit table-display-small.fbx"},
+    {"key":"OPS/Workstation","source":"Kenney Space Station Kit table-display.fbx"},
+    {"key":"OPS/WorkstationPlanet","source":"Kenney Space Station Kit table-display-planet.fbx"},
+    {"key":"OPS/Chair","source":"Kenney Space Station Kit chair-armrest-headrest.fbx"},
+    {"key":"OPS/DisplayWide","source":"Kenney Space Station Kit display-wall-wide.fbx"},
+    {"key":"OPS/Display","source":"Kenney Space Station Kit display-wall.fbx"},
+    {"key":"OPS/ComputerWide","source":"Kenney Space Station Kit computer-wide.fbx"},
+    {"key":"OPS/Rack","source":"Kenney Space Station Kit container-tall.fbx"},
+    {"key":"OPS/RackWide","source":"Kenney Space Station Kit container-wide.fbx"}
+  ],
+  "industrial": [
+    {"key":"IND/Machine","source":"Kenney Factory Kit machine.fbx"},
+    {"key":"IND/MachineFortified","source":"Kenney Factory Kit machine-fortified.fbx"},
+    {"key":"IND/RobotArmA","source":"Kenney Factory Kit robot-arm-a.fbx"},
+    {"key":"IND/ScannerHigh","source":"Kenney Factory Kit scanner-high.fbx"},
+    {"key":"IND/ScannerLow","source":"Kenney Factory Kit scanner-low.fbx"},
+    {"key":"IND/ScreenWide","source":"Kenney Factory Kit screen-wide.fbx"},
+    {"key":"IND/ScreenPanelWide","source":"Kenney Factory Kit screen-panel-wide.fbx"},
+    {"key":"IND/BoxLarge","source":"Kenney Factory Kit box-large.fbx"},
+    {"key":"IND/PistonThin","source":"Kenney Factory Kit piston-thin-round.fbx"}
+  ],
+  "hero_locked": [
+    "CentralOps.WS04",
+    "Foundations.EvidenceBoard",
+    "Crypto.SymmetricWorkbench",
+    "Crypto.AsymmetricBench",
+    "Communications.NetworkDisplay",
+    "SOC.TraceTable",
+    "RedTeam.Authorisation",
+    "RedTeam.TargetCase",
+    "Quantum.OpticalTable",
+    "Quantum.AliceSource",
+    "Quantum.EveIntercept",
+    "Quantum.BobReceiver"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "reviewed_on": "2026-08-24",
+  "policy": "reuse-first; integrate only after compatibility/licence/performance review; research again during and after implementation",
+  "resources": [
+    {
+      "name": "Unity Editor",
+      "version": "6000.5.9f1",
+      "decision": "LOCK",
+      "notes": "changeset b57deb96f08d"
+    },
+    {
+      "name": "URP",
+      "version": "17.5.0",
+      "decision": "USE"
+    },
+    {
+      "name": "Cinemachine",
+      "version": "3.1.7",
+      "decision": "USE / integrate where it materially improves camera blending"
+    },
+    {
+      "name": "Input System",
+      "version": "1.20.0",
+      "decision": "USE"
+    },
+    {
+      "name": "AI Navigation",
+      "version": "2.0.14",
+      "decision": "USE"
+    },
+    {
+      "name": "ProBuilder",
+      "version": "6.1.2",
+      "decision": "USE"
+    },
+    {
+      "name": "Quaternius Modular Sci-Fi MegaKit",
+      "version": "September 2024 / 277 models",
+      "license": "CC0",
+      "decision": "EVALUATE_PRIMARY_ARCHITECTURE"
+    },
+    {
+      "name": "Kenney Furniture Kit",
+      "version": "140 files",
+      "license": "CC0",
+      "decision": "USE_CURATE"
+    },
+    {
+      "name": "Kenney Factory Kit",
+      "version": "3.0 / 140 files",
+      "license": "CC0",
+      "decision": "USE_CURATE"
+    },
+    {
+      "name": "Kenney Modular Space Kit",
+      "version": "1.0 / 40 assets / 2026",
+      "license": "CC0",
+      "decision": "USE_SELECTIVELY"
+    },
+    {
+      "name": "Kenney UI Pack",
+      "version": "430 files",
+      "license": "CC0",
+      "decision": "EVALUATE_CURATE"
+    },
+    {
+      "name": "Poly Haven",
+      "version": "active catalogue",
+      "license": "CC0",
+      "decision": "USE_CURATE"
+    },
+    {
+      "name": "ambientCG",
+      "version": "active catalogue",
+      "license": "CC0",
+      "decision": "USE_CURATE"
+    },
+    {
+      "name": "NativeWebSocket",
+      "version": "2.0.4",
+      "license": "Apache-2.0",
+      "decision": "EVALUATE_WHEN_BACKEND_INTEGRATION_STARTS"
+    },
+    {
+      "name": "UniTask",
+      "version": "2.5.11",
+      "license": "MIT",
+      "decision": "EVALUATE_WHEN_ASYNC_COMPLEXITY_WARRANTS"
+    },
+    {
+      "name": "LitMotion",
+      "version": "2.0.2",
+      "license": "MIT",
+      "decision": "EVALUATE_FOR_MOTION_AFTER_FOUNDATION_STABLE"
+    },
+    {
+      "name": "Unity Boss Room",
+      "version": "reference sample",
+      "decision": "STUDY_SERVER_AUTHORITY"
+    },
+    {
+      "name": "Unity Megacity Metro",
+      "version": "reference sample",
+      "decision": "STUDY_PROFILING_PARTITIONING_SELECTIVELY"
+    },
+    {
+      "name": "Phantom Q Q emblem",
+      "version": "recovered prior-project asset / 256x256",
+      "license": "internal project asset",
+      "decision": "USE_IN_WORLD_BRANDING",
+      "notes": "Reception and Central Operations; preserve Phantom Q brand identity"
+    },
+    {
+      "name": "BB84 Spatial Lab reference",
+      "version": "recovered prior-project reference / 1200x630",
+      "license": "internal project reference",
+      "decision": "STUDY_VISUAL_DENSITY_QKD_SPATIAL_LANGUAGE",
+      "notes": "Reference only; do not treat as locked final character/lab style"
+    },
+    {
+      "name": "Kenney Space Station Kit",
+      "version": "90 files",
+      "license": "CC0",
+      "decision": "EVALUATE_SELECTIVELY",
+      "notes": "Technical/lab interior props only; not the Phantom Q architectural identity"
+    },
+    {
+      "name": "Kenney Building Kit",
+      "version": "80 files",
+      "license": "CC0",
+      "decision": "EVALUATE_SELECTIVELY",
+      "notes": "Secondary generic structural/utility pieces where scale/style fit"
+    }
+  ]
+}

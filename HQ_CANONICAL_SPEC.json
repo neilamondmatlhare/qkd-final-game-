@@ -1,0 +1,497 @@
+{
+  "project": "Phantom Q Engineers",
+  "build": "Build 01 \u2014 Full HQ Master Greybox",
+  "units": "1 Unity unit = 1 metre",
+  "axes": {
+    "Y": "up",
+    "+Z": "north",
+    "+X": "east",
+    "origin": "Central Operations centre"
+  },
+  "camera": {
+    "pitch_deg": 60,
+    "yaw_deg": 45,
+    "fov_deg": 40,
+    "distance_m": 15,
+    "look_ahead_m": 0.8
+  },
+  "player": {
+    "height_m": 1.8,
+    "radius_m": 0.3,
+    "step_m": 0.3,
+    "walk_mps": 3.2
+  },
+  "rooms": [
+    {
+      "id": "RECEPTION",
+      "name": "Reception / Identity",
+      "centre": [
+        0,
+        -17
+      ],
+      "size": [
+        12,
+        8
+      ]
+    },
+    {
+      "id": "CENTRAL_OPS",
+      "name": "Central Operations",
+      "centre": [
+        0,
+        0
+      ],
+      "size": [
+        18,
+        14
+      ]
+    },
+    {
+      "id": "FOUNDATIONS",
+      "name": "Training & Foundations",
+      "centre": [
+        -18,
+        0
+      ],
+      "size": [
+        14,
+        12
+      ]
+    },
+    {
+      "id": "COMMUNICATIONS",
+      "name": "Communications",
+      "centre": [
+        0,
+        17
+      ],
+      "size": [
+        14,
+        10
+      ]
+    },
+    {
+      "id": "CRYPTO",
+      "name": "Cryptography Lab",
+      "centre": [
+        -18,
+        17
+      ],
+      "size": [
+        14,
+        12
+      ]
+    },
+    {
+      "id": "SOC",
+      "name": "Security Operations Centre",
+      "centre": [
+        20,
+        9
+      ],
+      "size": [
+        16,
+        12
+      ]
+    },
+    {
+      "id": "RED_TEAM",
+      "name": "Red Team Operations",
+      "centre": [
+        39,
+        9
+      ],
+      "size": [
+        16,
+        12
+      ]
+    },
+    {
+      "id": "ENGINEERING",
+      "name": "Engineering",
+      "centre": [
+        -19,
+        -15
+      ],
+      "size": [
+        16,
+        14
+      ]
+    },
+    {
+      "id": "QUANTUM",
+      "name": "Quantum Wing",
+      "centre": [
+        -39,
+        -15
+      ],
+      "size": [
+        18,
+        14
+      ]
+    },
+    {
+      "id": "ADV_COMPUTE",
+      "name": "Advanced Compute",
+      "centre": [
+        -35,
+        12
+      ],
+      "size": [
+        14,
+        12
+      ]
+    },
+    {
+      "id": "SECURE_CORE",
+      "name": "Secure Core",
+      "centre": [
+        -53,
+        0
+      ],
+      "size": [
+        12,
+        10
+      ]
+    }
+  ],
+  "direct_or_short_relationships": [
+    [
+      "RECEPTION",
+      "CENTRAL_OPS"
+    ],
+    [
+      "CENTRAL_OPS",
+      "FOUNDATIONS"
+    ],
+    [
+      "CENTRAL_OPS",
+      "COMMUNICATIONS"
+    ],
+    [
+      "COMMUNICATIONS",
+      "CRYPTO"
+    ],
+    [
+      "CENTRAL_OPS",
+      "SOC"
+    ],
+    [
+      "COMMUNICATIONS",
+      "SOC"
+    ],
+    [
+      "SOC",
+      "RED_TEAM"
+    ],
+    [
+      "FOUNDATIONS",
+      "ENGINEERING"
+    ],
+    [
+      "ENGINEERING",
+      "QUANTUM"
+    ],
+    [
+      "ENGINEERING",
+      "ADV_COMPUTE"
+    ],
+    [
+      "QUANTUM",
+      "SECURE_CORE"
+    ],
+    [
+      "ADV_COMPUTE",
+      "SECURE_CORE"
+    ]
+  ],
+  "campaign_route_backbone": [
+    "Entrance -> Reception -> Central Ops",
+    "Central Ops -> Foundations",
+    "Crypto <-> Communications",
+    "Central Ops -> Communications -> SOC",
+    "SOC <-> Red Team",
+    "Final return -> Central Ops"
+  ],
+  "locked_objects": {
+    "WS04": [
+      4,
+      -2
+    ],
+    "WS04_player_marker": [
+      4,
+      -3.2
+    ],
+    "Alice_WS04_marker": [
+      2.8,
+      -2.4
+    ]
+  },
+  "notes": [
+    "Engineering/Quantum/Advanced Compute/Secure Core remain present even if not entered in the current cyber recovery arc.",
+    "Security hierarchy is not a single numeric clearance ladder.",
+    "The master greybox is built as one whole scene first; production partitioning happens only after spatial validation."
+  ],
+  "transitions": [
+    {
+      "id": "T0",
+      "centre": [
+        0,
+        -10
+      ],
+      "size": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "OPS_FND",
+      "centre": [
+        -10,
+        0
+      ],
+      "size": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "OPS_COMM",
+      "centre": [
+        0,
+        9.5
+      ],
+      "size": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "CRYPTO_COMM",
+      "centre": [
+        -9,
+        17
+      ],
+      "size": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "T1A",
+      "centre": [
+        10.5,
+        5
+      ],
+      "size": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "T1B",
+      "centre": [
+        9.5,
+        13.5
+      ],
+      "size": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": "T2",
+      "centre": [
+        29.5,
+        9
+      ],
+      "size": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "T3",
+      "centre": [
+        -18,
+        -7
+      ],
+      "size": [
+        4,
+        2
+      ]
+    },
+    {
+      "id": "T4_Q",
+      "centre": [
+        -28.5,
+        -15
+      ],
+      "size": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "T4_SPINE",
+      "centre": [
+        -29,
+        -3.5
+      ],
+      "size": [
+        2,
+        19
+      ]
+    },
+    {
+      "id": "T5_VEST",
+      "centre": [
+        -44.5,
+        0
+      ],
+      "size": [
+        5,
+        10
+      ]
+    },
+    {
+      "id": "Q_T5",
+      "centre": [
+        -44.5,
+        -6.5
+      ],
+      "size": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "ADV_T5_V",
+      "centre": [
+        -44.5,
+        7.5
+      ],
+      "size": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "ADV_T5_H",
+      "centre": [
+        -43.25,
+        10
+      ],
+      "size": [
+        2.5,
+        2
+      ]
+    }
+  ],
+  "connectivity_edges": [
+    [
+      "RECEPTION",
+      "T0"
+    ],
+    [
+      "T0",
+      "CENTRAL_OPS"
+    ],
+    [
+      "CENTRAL_OPS",
+      "OPS_FND"
+    ],
+    [
+      "OPS_FND",
+      "FOUNDATIONS"
+    ],
+    [
+      "CENTRAL_OPS",
+      "OPS_COMM"
+    ],
+    [
+      "OPS_COMM",
+      "COMMUNICATIONS"
+    ],
+    [
+      "CRYPTO",
+      "CRYPTO_COMM"
+    ],
+    [
+      "CRYPTO_COMM",
+      "COMMUNICATIONS"
+    ],
+    [
+      "CENTRAL_OPS",
+      "T1A"
+    ],
+    [
+      "T1A",
+      "SOC"
+    ],
+    [
+      "COMMUNICATIONS",
+      "T1B"
+    ],
+    [
+      "T1B",
+      "SOC"
+    ],
+    [
+      "SOC",
+      "T2"
+    ],
+    [
+      "T2",
+      "RED_TEAM"
+    ],
+    [
+      "FOUNDATIONS",
+      "T3"
+    ],
+    [
+      "T3",
+      "ENGINEERING"
+    ],
+    [
+      "ENGINEERING",
+      "T4_Q"
+    ],
+    [
+      "T4_Q",
+      "QUANTUM"
+    ],
+    [
+      "T4_Q",
+      "T4_SPINE"
+    ],
+    [
+      "T4_SPINE",
+      "ADV_COMPUTE"
+    ],
+    [
+      "QUANTUM",
+      "Q_T5"
+    ],
+    [
+      "Q_T5",
+      "T5_VEST"
+    ],
+    [
+      "T5_VEST",
+      "SECURE_CORE"
+    ],
+    [
+      "T5_VEST",
+      "ADV_T5_V"
+    ],
+    [
+      "ADV_T5_V",
+      "ADV_T5_H"
+    ],
+    [
+      "ADV_T5_H",
+      "ADV_COMPUTE"
+    ]
+  ]
+}

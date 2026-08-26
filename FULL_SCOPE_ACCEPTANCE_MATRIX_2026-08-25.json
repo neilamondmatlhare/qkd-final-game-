@@ -1,0 +1,26 @@
+{
+  "build": "Build 02 Production Pass II",
+  "rule": "Build 02 does not need to implement every future feature, but it must not architecturally block it.",
+  "perspectives": [
+    {"id":"trainee","status":"TEST_NOW","checks":["exterior-to-reception orientation","T0 readability","Central Ops reveal","WS04 anchor"]},
+    {"id":"campaign","status":"TEST_NOW","checks":["Prologue/I01-I06 routes remain physically plausible","room changes follow operational purpose"]},
+    {"id":"alice","status":"ARCHITECTURE_SAFE","checks":["source station exists","live hidden-information policy preserved","Central Ops/Crypto/Comms route preserved"]},
+    {"id":"bob","status":"ARCHITECTURE_SAFE","checks":["remote campaign presence possible","Quantum receiver station exists","Bob not materialized everywhere in HQ"]},
+    {"id":"eve","status":"ARCHITECTURE_SAFE","checks":["legitimate security role preserved","Quantum intercept station exists","not visually framed as campaign culprit"]},
+    {"id":"instructor","status":"FUTURE_SAFE","checks":["observer/control surfaces can exist without secret leakage","sealed review path not blocked"]},
+    {"id":"solo","status":"FUTURE_SAFE","checks":["same authoritative engine can automate missing roles"]},
+    {"id":"soc","status":"TEST_NOW","checks":["trace/correlation/evidence work is spatially legible","not decorative monitor wall"]},
+    {"id":"red_team","status":"TEST_NOW","checks":["authorise/target/operate concepts remain distinct","room access does not equal attack authority"]},
+    {"id":"engineering","status":"TEST_NOW","checks":["benches/storage/instrument/service route read as engineering","large equipment route avoids Reception"]},
+    {"id":"quantum","status":"TEST_NOW","checks":["Alice→Eve→Bob optical path reads before labels","hardware/control/diagnostic space preserved"]},
+    {"id":"mobile","status":"FUTURE_SAFE","checks":["camera/input abstraction does not require mouse-only gameplay"]},
+    {"id":"multiplayer","status":"FUTURE_SAFE","checks":["one world can support separate private role workspaces","no single-client omniscient dependency introduced"]},
+    {"id":"classroom_it","status":"FUTURE_SAFE","checks":["local Raspberry Pi/Flask/SQLite model remains compatible","no cloud dependency introduced"]},
+    {"id":"accessibility","status":"REVIEW_NOW","checks":["fixed camera avoids shake","state not color-only","readability/interaction targets preserved"]},
+    {"id":"performance","status":"PROFILE_NOW","checks":["1080p/60 target","CPU/GPU/memory/batches/lights/shadows measured"]},
+    {"id":"security_authority","status":"ARCHITECTURE_SAFE","checks":["identity/role/capability/zone/mission/action layers remain separable"]},
+    {"id":"learning_design","status":"REVIEW_NOW","checks":["rooms support Brief→Predict→Configure→Run→Inspect→Decide→Explain"]},
+    {"id":"environment_art","status":"REVIEW_NOW","checks":["department recognizable without giant label","hero landmark","vertical composition","purposeful clutter","clear circulation","cutaway readability"]},
+    {"id":"future_modes","status":"ARCHITECTURE_SAFE","checks":["Guided/Challenge/Sandbox/Multiplayer/Classroom/Competition remain possible"]}
+  ]
+}
